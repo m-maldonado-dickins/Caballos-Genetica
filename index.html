@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Caballos Genética</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+        <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            let correct1 = document.querySelector('#question1 .correct');
+            correct1.addEventListener('click', function() {
+                correct1.style.backgroundColor = 'green';
+                document.querySelector('#feedback1').innerHTML = 'Correct';
+            });
+
+        let incorrects1 = document.querySelectorAll('#question1 .incorrect');
+        for (let i = 0; i < incorrects1.length; i++) {
+            incorrects1[i].addEventListener('click', function() {
+                incorrects1[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback1').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct2 = document.querySelector('#question2 .correct');
+            correct2.addEventListener('click', function() {
+                correct2.style.backgroundColor = 'green';
+                document.querySelector('#feedback2').innerHTML = 'Correct';
+            });
+
+        let incorrects2 = document.querySelectorAll('#question2 .incorrect');
+        for (let i = 0; i < incorrects2.length; i++) {
+            incorrects2[i].addEventListener('click', function() {
+                incorrects2[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback2').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct3 = document.querySelector('#question3 .correct');
+            correct3.addEventListener('click', function() {
+                correct3.style.backgroundColor = 'green';
+                document.querySelector('#feedback3').innerHTML = 'Correct';
+            });
+
+        let incorrects3 = document.querySelectorAll('#question3 .incorrect');
+        for (let i = 0; i < incorrects3.length; i++) {
+            incorrects3[i].addEventListener('click', function() {
+                incorrects3[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback3').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct4 = document.querySelector('#question4 .correct');
+            correct4.addEventListener('click', function() {
+                correct4.style.backgroundColor = 'green';
+                document.querySelector('#feedback4').innerHTML = 'Correct';
+            });
+
+        let incorrects4 = document.querySelectorAll('#question4 .incorrect');
+        for (let i = 0; i < incorrects4.length; i++) {
+            incorrects4[i].addEventListener('click', function() {
+                incorrects4[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback4').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct5 = document.querySelector('#question5 .correct');
+            correct5.addEventListener('click', function() {
+                correct5.style.backgroundColor = 'green';
+                document.querySelector('#feedback5').innerHTML = 'Correct';
+            });
+
+        let incorrects5 = document.querySelectorAll('#question5 .incorrect');
+        for (let i = 0; i < incorrects5.length; i++) {
+            incorrects5[i].addEventListener('click', function() {
+                incorrects5[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback5').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct6 = document.querySelector('#question6 .correct');
+            correct6.addEventListener('click', function() {
+                correct6.style.backgroundColor = 'green';
+                document.querySelector('#feedback6').innerHTML = 'Correct';
+            });
+
+        let incorrects6 = document.querySelectorAll('#question6 .incorrect');
+        for (let i = 0; i < incorrects6.length; i++) {
+            incorrects6[i].addEventListener('click', function() {
+                incorrects6[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback6').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct7 = document.querySelector('#question7 .correct');
+            correct7.addEventListener('click', function() {
+                correct7.style.backgroundColor = 'green';
+                document.querySelector('#feedback7').innerHTML = 'Correct';
+            });
+
+        let incorrects7 = document.querySelectorAll('#question7 .incorrect');
+        for (let i = 0; i < incorrects7.length; i++) {
+            incorrects7[i].addEventListener('click', function() {
+                incorrects7[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback7').innerHTML = 'Incorrect';
+            });
+        }
+        let correct8 = document.querySelector('#question8 .correct');
+            correct8.addEventListener('click', function() {
+                correct8.style.backgroundColor = 'green';
+                document.querySelector('#feedback8').innerHTML = 'Correct';
+            });
+
+        let incorrects8 = document.querySelectorAll('#question8 .incorrect');
+        for (let i = 0; i < incorrects8.length; i++) {
+            incorrects8[i].addEventListener('click', function() {
+                incorrects8[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback8').innerHTML = 'Incorrect';
+            });
+        }
+
+        let correct9 = document.querySelector('#question9 .correct');
+            correct9.addEventListener('click', function() {
+                correct9.style.backgroundColor = 'green';
+                document.querySelector('#feedback9').innerHTML = 'Correct';
+            });
+
+        let incorrects9 = document.querySelectorAll('#question9 .incorrect');
+        for (let i = 0; i < incorrects9.length; i++) {
+            incorrects9[i].addEventListener('click', function() {
+                incorrects9[i].style.backgroundColor = 'red';
+                document.querySelector('#feedback9').innerHTML = 'Incorrect';
+            });
+        }
+    })
+
+            </script>
+
+    </head>
+    <body>
+        <header>
+            <!-- Tutorial for header: Responsive Header Navigation Menu For A Website by Coding Snow -->
+            <a href="#" class="name">Caballos Genética</a>
+            <div class="navigation">
+                <ul class="menu">
+                    <li class="menu-item"><a class="sub-btn" href="#">English<i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li class="subsub-item"><a href="index.html">Home</a></li>
+                        <li class="subsub-item"><a href="gray.html">Gray</a></li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="#">Base Colors<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="black.html">Black</a></li>
+                                <li class="moremore-item"><a href="chestnut.html">Chestnut</a></li>
+                                <li class="moremore-item"><a href="bay.html">Bay</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">Cream<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="smokyblack-smokycream.html">Smoky&nbsp;Black&nbsp;and&nbsp;Smoky&nbsp;Cream</a></li>
+                                <li class="moremore-item"><a href="palomino-cremello.html">Palomino&nbsp;and&nbsp;Cremello</a></li>
+                                <li class="moremore-item"><a href="buckskin-perlino.html">Buckskin&nbsp;and&nbsp;Perlino</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">Pearl<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="black-pearl.html">Black&nbsp;Pearl&nbsp;and&nbsp;Smoky&nbsp;Black&nbsp;Pearl</a></li>
+                                <li class="moremore-item"><a href="red-pearl.html">Red&nbsp;Pearl&nbsp;and&nbsp;Palomino&nbsp;Pearl</a></li>
+                                <li class="moremore-item"><a href="bay-pearl.html">Bay&nbsp;Pearl&nbsp;and&nbsp;Buckskin&nbsp;Pearl</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">Champagne<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="classic-champagne.html">Classic&nbsp;Champagne</a></li>
+                                <li class="moremore-item"><a href="gold-champagne.html">Gold&nbsp;Champagne</a></li>
+                                <li class="moremore-item"><a href="amber-champagne.html">Amber&nbsp;Champagne</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">Silver<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="silver-dapple.html">Silver&nbsp;Dapple</a></li>
+                                <li class="moremore-item"><a href="silver-chestnut.html">Silver&nbsp;Chestnut</a></li>
+                                <li class="moremore-item"><a href="bay-silver.html">Bay&nbsp;Silver</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">Dun<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="grulla.html">Grulla</a></li>
+                                <li class="moremore-item"><a href="red-dun.html">Red&nbsp;Dun</a></li>
+                                <li class="moremore-item"><a href="bay-dun.html">Bay&nbsp;Dun</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item"><a href="mushroom.html">Mushroom</a></li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="#">Roan<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="blue-roan.html">Blue&nbsp;Roan</a></li>
+                                <li class="moremore-item"><a href="red-roan.html">Red&nbsp;Roan</a></li>
+                                <li class="moremore-item"><a href="bay-roan.html">Bay&nbsp;Roan</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">White Patterns<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="tobiano.html">Tobiano</a></li>
+                                <li class="moremore-item"><a href="overo.html">Overo</a></li>
+                                <li class="moremore-item"><a href="splash.html">Splash</a></li>
+                                <li class="moremore-item"><a href="sabino.html">Sabino</a></li>
+                                <li class="moremore-item"><a href="rabicano.html">Rabicano</a></li>
+                            </ul>
+                        </li>
+                        <li class="subsub-item more">
+                            <a class="moremore-btn" href="">Leopard&nbsp;Complex<i class="fas fa-angle-right"></i></a>
+                            <ul class="moremore-menu">
+                                <li class="moremore-item"><a href="varnish-roan.html">Varnish&nbsp;Roan</a></li>
+                                <li class="moremore-item"><a href="blanket.html">Blanket</a></li>
+                                <li class="moremore-item"><a href="snowcap.html">Snowcap</a></li>
+                                <li class="moremore-item"><a href="leopard.html">Leopard</a></li>
+                                <li class="moremore-item"><a href="few-spot.html">Few&nbsp;Spot</a></li>
+                            </ul>
+                        </li>
+                    </ul></li>
+
+                    <li class="menu-item"><a class="sub-btn" href="#">Español<i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li class="subsub-item"><a href="indice.html">Página&nbsp;Principal</a></li>
+                            <li class="subsub-item"><a href="gris.html">Grís</a></li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="#">Colores&nbsp;Base<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="negro.html">Negro</a></li>
+                                    <li class="moremore-item"><a href="alazan.html">Alazán</a></li>
+                                    <li class="moremore-item"><a href="bayo.html">Bayo</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Crema<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="smokyblackysmokycream.html">Smoky&nbsp;Black&nbsp;y&nbsp;Smoky&nbsp;Cream</a></li>
+                                    <li class="moremore-item"><a href="palominoycremello.html">Palomino&nbsp;y&nbsp;Cremello</a></li>
+                                    <li class="moremore-item"><a href="buckskinyperlino.html">Buckskin&nbsp;y&nbsp;Perlino</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Perla<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="negro-perla.html">Negro&nbsp;Perla&nbsp;y&nbsp;Smoky&nbsp;Black&nbsp;Perla</a></li>
+                                    <li class="moremore-item"><a href="alazan-perla.html">Alazán&nbsp;Perla&nbsp;y&nbsp;Palomino&nbsp;Perla</a></li>
+                                    <li class="moremore-item"><a href="bayo-perla.html">Bayo&nbsp;Perla&nbsp;y&nbsp;Buckskin&nbsp;Perla</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Champagne<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="classic-champagne-s.html">Classic&nbsp;Champagne</a></li>
+                                    <li class="moremore-item"><a href="gold-champagne-s.html">Gold&nbsp;Champagne</a></li>
+                                    <li class="moremore-item"><a href="amber-champagne-s.html">Amber&nbsp;Champagne</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Plateado<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="negro-plateado.html">Negro&nbsp;Plateado</a></li>
+                                    <li class="moremore-item"><a href="sbayo-plateado.html">Bayo&nbsp;Plateado</a></li>
+                                    <li class="moremore-item"><a href="rojo-plateado.html">Rojo&nbsp;Plateado</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Dun<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="grulla-s.html">Grulla</a></li>
+                                    <li class="moremore-item"><a href="cervuno.html">Cervuno</a></li>
+                                    <li class="moremore-item"><a href="lobero.html">Lobero</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item"><a href="mushroom-s.html">Mushroom</a></li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="#">Ruano<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="ruano-negro.html">Ruano&nbsp;Negro</a></li>
+                                    <li class="moremore-item"><a href="ruano-rojo.html">Ruano&nbsp;Rojo</a></li>
+                                    <li class="moremore-item"><a href="bayo-ruano.html">Bayo&nbsp;Ruano</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Patrones&nbsp;Blancos<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="tobiano-s.html">Tobiano</a></li>
+                                    <li class="moremore-item"><a href="overo-s.html">Overo</a></li>
+                                    <li class="moremore-item"><a href="splash-s.html">Splash</a></li>
+                                    <li class="moremore-item"><a href="sabino-s.html">Sabino</a></li>
+                                    <li class="moremore-item"><a href="rabicano-s.html">Rabicano</a></li>
+                                </ul>
+                            </li>
+                            <li class="subsub-item more">
+                                <a class="moremore-btn" href="">Complejo&nbsp;Leopardo<i class="fas fa-angle-right"></i></a>
+                                <ul class="moremore-menu">
+                                    <li class="moremore-item"><a href="ruano-barnizado.html">Ruano&nbsp;Barnizado</a></li>
+                                    <li class="moremore-item"><a href="blanket-s.html">Blanket</a></li>
+                                    <li class="moremore-item"><a href="snowcap-s.html">Snowcap</a></li>
+                                    <li class="moremore-item"><a href="leopardo.html">Leopardo</a></li>
+                                    <li class="moremore-item"><a href="leopardo-poco-manchado.html">Leopardo&nbsp;Poco&nbsp;Manchado</a></li>
+                                </ul>
+                            </li>
+                        </ul></li>
+                </ul>
+            </div>
+        </header>
+        <section class="section-home">
+            <h1> </h1>
+        </section>
+        <section class="section-two">
+            <h2>Introduction</h2>
+            <p>The objective of this website is to document the knowledge I have on horse coat color genetics in one
+                place so as to potentially serve as an introduction for those interested, both in Spanish and English.</p>
+            <p>I decided to make this my final project because throughout the years I have noticed little
+                documentation of horse coat colors and their genetics in Spanish.</p>
+            <p>I think its important to note that I'm not an expert so take this information with a grain of salt,
+                but hopefully someone can find this helpful nonetheless!</p>
+            <p>If you would like to test your knowledge scroll down for a quiz.</p>
+            <img alt="Photo of a bay horse running towards the camera taken by M Maldonado Dickins." src="amalthea.jpg">
+
+            <h2>Quiz</h2>
+
+            <div id="question1">
+                <h3>What gene when present two times is lethal?</h3>
+
+                <button class="incorrect">Rabicano</button>
+                <button class="incorrect">Splash</button>
+                <button class="correct">Overo</button>
+                <button class="incorrect">Sabino</button>
+
+                <p id="feedback1"></p>
+            </div>
+
+            <div id="question2">
+                <h3>Which one isn't a base coat?</h3>
+
+                <button class="incorrect">Bay</button>
+                <button class="correct">Gray</button>
+                <button class="incorrect">Black</button>
+                <button class="incorrect">Chestnut</button>
+
+                <p id="feedback2"></p>
+            </div>
+
+            <div id="question3">
+                <h3>Which white pattern looks as if the horse had been dipped in paint?</h3>
+
+                <button class="correct">Splash</button>
+                <button class="incorrect">Sabino</button>
+                <button class="incorrect">Rabicano</button>
+                <button class="incorrect">Overo</button>
+
+                <p id="feedback3"></p>
+            </div>
+
+                <div id="question4">
+                    <h3>What coat color is the horse in the image above?</h3>
+
+                    <button class="correct">Bay</button>
+                    <button class="incorrect">Chestnut</button>
+                    <button class="incorrect">Red Dun</button>
+                    <button class="incorrect">Mushroom</button>
+
+                    <p id="feedback4"></p>
+                </div>
+
+                    <div id="question5">
+                        <h3>What base coat has only black points?</h3>
+
+                        <button class="correct">Bay</button>
+                        <button class="incorrect">Gray</button>
+                        <button class="incorrect">Black</button>
+                        <button class="incorrect">Chestnut</button>
+
+                        <p id="feedback5"></p>
+                    </div>
+
+                        <div id="question6">
+                            <h3>Which gene is only found in shetland ponies?</h3>
+
+                            <button class="incorrect">Roan</button>
+                            <button class="incorrect">Pearl</button>
+                            <button class="correct">Mushroom</button>
+                            <button class="incorrect">Champagne</button>
+
+                            <p id="feedback6"></p>
+                        </div>
+
+                            <div id="question7">
+                                <h3>Which genes result in a leopard horse?</h3>
+
+                                <button class="incorrect">LPLP PATN1PATN1</button>
+                                <button class="incorrect">LPlp PATN1patn1</button>
+                                <button class="correct">LPlp PATN1PATN1</button>
+                                <button class="incorrect">LPLP PATN1patn1</button>
+
+                                <p id="feedback7"></p>
+                            </div>
+
+                                <div id="question8">
+                                    <h3>Which gene isn't expressed when a foal is first born?</h3>
+
+                                    <button class="incorrect">Pearl</button>
+                                    <button class="incorrect">Mushroom</button>
+                                    <button class="correct">Varnish Roan</button>
+                                    <button class="incorrect">Dun</button>
+
+                                    <p id="feedback8"></p>
+                                </div>
+
+                                    <div id="question9">
+                                        <h3>What gene causes the coat perlino?</h3>
+
+                                        <button class="incorrect">Pearl</button>
+                                        <button class="incorrect">Champagne</button>
+                                        <button class="correct">Cream</button>
+                                        <button class="incorrect">Mushroom</button>
+
+                                        <p id="feedback9"></p>
+                                    </div>
+        </section>
+    </body>
+</html>
